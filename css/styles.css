@@ -1,7 +1,7 @@
 h1 {
   font-weight: bold;
   text-align: center;
-  border: 2px solid #42c5f4;
+  border: 2px solid #429b72;
   padding: 4px;
   margin: 12px;
   font-family: Georgia;
@@ -9,11 +9,15 @@ h1 {
 img {
   display: block;
   margin: auto;
+  border-radius: 50%;
 }
-.losange div {
-  margin: 0 auto;
-  transform-origin: 50% 50%;
-  overflow: hidden;
-  width: 250px;
-  height: 250px;
+div.header {
+  font-family: Georgia;
+}
+div.column {
+  width: 300px;
+  float: left;
+}
+h3.subheader {
+  font-style: italic;
 }
