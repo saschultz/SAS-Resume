@@ -2,6 +2,18 @@ h1 {
   font-weight: bold;
   text-align: center;
   border: 2px solid #42c5f4;
+  padding: 4px;
   margin: 12px;
   font-family: Georgia;
+}
+img {
+  display: block;
+  margin: auto;
+}
+.losange div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
 }
